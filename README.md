@@ -11,7 +11,7 @@
 ###  安装node.js 
 ###  第一步：npm install 安装所需依赖
 ###  第二部：npm start  启动项目
-###  第三部：npm run build  打包项目 
-
+###  第三部：npm run build （运行的是webpack.production.config.js）打包项目 
+###   webpack.production.config.js只是比webpack.config.js少了devServer(仔细看下)
 ```
 [参考文档](https://zhuanlan.zhihu.com/p/20397902?refer=FrontendMagazine)
